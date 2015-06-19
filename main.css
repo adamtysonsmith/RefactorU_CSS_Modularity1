@@ -1,0 +1,110 @@
+/* ADD YOUR STYLES HERE */
+
+/* Data Tables */
+/******************************************/
+.data-table tr, .data-table thead th {
+    border-bottom: 1px solid lightgray;
+}
+
+.data-table tr:last-child {
+    border: none;
+}
+
+.data-table td, .data-table th {
+    padding: 10px 50px 10px 10px;
+}
+
+
+/* Stats Table */
+/******************************************/
+.stats tr {
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+    padding: 20px 0px;
+}
+.stats td {
+    padding: 15px;
+    text-align: center;
+}
+.stats td div {
+    font-size: 42px;
+    font-weight: bold;
+}
+
+.stats td div:last-child {
+    font-size: 14px;
+    font-weight: 100;
+    color: gray;
+}
+
+
+/* Bar Chart */
+/******************************************/
+.bar-chart th {
+    text-align: right;
+}
+.bar-chart th, .bar-chart tr {
+    padding: 5px 5px 5px 0px;
+}
+.bar-chart td {
+    width: 350px;
+}
+.bar-chart td div {
+    background-color: dodgerblue;
+    height: 30px;
+    border-radius: 4px;
+    padding-left: 10px;
+    padding-top: 10px;
+    color: white;
+}
+
+
+/* Lightbox */
+/******************************************/
+.lightbox-container {
+    background-color: darkslategray;
+    position: relative;
+    width: 800px;
+    height: 400px;
+}
+.lightbox {
+    background-color: #f3f3f3;
+    position: absolute;
+    top: 30px;
+    left: 100px;
+    width: 70%;
+    height: 70%;
+    padding: 20px 20px;
+    border-radius: 10px;
+}
+.lightbox a {
+    background-color: coral;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+}
+.lightbox a:hover {
+    background-color: burlywood;
+}
+
+
+/* Media Blocks */
+/******************************************/
+.media-img {
+    float: left;
+    padding-right: 10px;
+}
+.media-title {
+    margin-left: 60px;
+    margin-bottom: 5px;
+}
+.media-p {
+    margin-left: 60px;
+}
+img.nested, h2.nested {
+    margin-left: 120px;
+}
+.nested {
+    margin-left: 162px;
+}
